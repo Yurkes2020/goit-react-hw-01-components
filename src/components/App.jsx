@@ -3,16 +3,15 @@ import { Statistics } from './statistics/Statistics';
 import { FriendList } from './Friendlist/FriendList';
 import { Transactions } from './transactions/Transactions';
 
-import user from 'components/data/user.json';
-import data from 'components/data/data.json';
-import friends from 'components/data/friends.json';
-import transactions from 'components/data/transactions.json';
+import user from 'data/user.json';
+import data from 'data/data.json';
+import friends from 'data/friends.json';
+import transactions from 'data/transactions.json';
 
 export const App = () => {
   return (
     <div>
       <Profile
-        key={user.username}
         username={user.username}
         tag={user.tag}
         location={user.location}

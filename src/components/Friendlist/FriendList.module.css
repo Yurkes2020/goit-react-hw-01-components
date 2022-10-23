@@ -28,6 +28,11 @@
   background-color: #f00;
 }
 
+.online {
+  composes: status;
+  background-color: rgb(11, 197, 82);
+}
+
 .name {
   margin-left: 10px;
   font-weight: 700;
